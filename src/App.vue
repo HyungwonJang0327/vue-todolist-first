@@ -16,8 +16,6 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
   data() {
@@ -46,9 +44,6 @@ export default {
     toggleTodoState(todo) {
       todo.state = todo.state === 'active' ? 'done' : 'active'
     }
-  },
-  components: {
-    // HelloWorld
   },
 }
 </script>
